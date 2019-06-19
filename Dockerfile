@@ -5,7 +5,7 @@ LABEL author="Lucas GILHARD <l.gilhard@gmail.com>" description="Docker image for
 
 USER root
 
-# ANGULAR
+# ANGULAR x IONIC x STRAPI
 RUN npm install -g @angular/cli ionic strapi@alpha
 
 WORKDIR /usr/src/app/
